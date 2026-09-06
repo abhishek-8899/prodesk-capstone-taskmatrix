@@ -33,7 +33,7 @@ The main idea is to provide a simple workspace where a team can manage their dev
 * Git & GitHub
 * Postman
 * Figma
-* Draw.io / dbdiagram.io
+* dbdiagram.io
 
 ### Deployment
 
@@ -65,7 +65,7 @@ The main idea is to provide a simple workspace where a team can manage their dev
 
 Tasks will be managed through:
 
-`Backlog → To Do → In Progress → Review → Done`
+Backlog → To Do → In Progress → Review → Done
 
 ### Comments
 
@@ -119,13 +119,17 @@ Planned screens:
 * Task Details
 * Mobile Responsive View
 
-**Figma:** Coming soon
+## UI/UX Design
+
+The UI/UX designs were created in Figma with desktop and mobile layouts.
+
+**Figma:** [TaskMatrix UI/UX Design](https://www.figma.com/design/7BrU1lnSGpVNRziMI8sX1w/TaskMatrix---UI-UX-Design?node-id=1-2&t=RQFPNCIaJZEYhNpp-1)
 
 ## Architecture
 
 The basic application flow will be:
 
-`React Frontend → Express API → MongoDB`
+React Frontend → Express API → MongoDB
 
 Socket.IO will be used later for real-time activity updates.
 
@@ -138,8 +142,21 @@ Socket.IO will be used later for real-time activity updates.
 The following features may be added after the main application is completed:
 
 * AI-assisted task creation
-* Notifications
-* Advanced analytics
 * Dark mode
 * More real-time features
 
+## Project Status
+
+**Sprint 13 – Planning & Architecture**
+
+- [x] Project selection
+- [x] Project scope
+- [x] Core features
+- [x] Tech stack
+- [x] Figma design
+- [x] Database schema
+- [x] ERD
+- [x] API planning
+- [x] Prompts.md
+- [ ] Application development
+- [ ] Deployment 
